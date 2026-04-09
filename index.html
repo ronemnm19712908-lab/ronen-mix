@@ -1,685 +1,412 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>דיג׳יי רונן מיקס ומגנטים – בת מצווה | ברית | ימי הולדת | אירועים</title>
-<meta name="description" content="דיג׳יי רונן מיקס – 25 שנות ניסיון. חבילה הכוללת דיג׳יי + מגנטים + וידאו + תאורה ב-1600 ש״ח בלבד. מסיבות בת מצווה, ברית, ימי הולדת. התקשרו עכשיו!">
-<meta name="keywords" content="דיג׳יי בת מצווה, דיג׳יי ברית, דיג׳יי יום הולדת, מגנטים לאירועים, DJ רונן מיקס, דיג׳יי לאירועים">
-
-<!-- Open Graph -->
-<meta property="og:title" content="דיג׳יי רונן מיקס ומגנטים – 1600 ש״ח הכל כלול">
-<meta property="og:description" content="25 שנות ניסיון | דיג׳יי + מגנטים + וידאו + תאורה בחבילה אחת. בת מצווה, ברית, ימי הולדת.">
-<meta property="og:type" content="website">
-
-<!-- Schema.org LocalBusiness -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "דיג׳יי רונן מיקס ומגנטים",
-  "telephone": "+972-52-250-8595",
-  "priceRange": "₪₪",
-  "description": "דיג׳יי מקצועי לאירועים, בת מצווה, ברית מילה, ימי הולדת. 25 שנות ניסיון.",
-  "areaServed": "Israel",
-  "offers": {
-    "@type": "Offer",
-    "price": "1600",
-    "priceCurrency": "ILS",
-    "description": "חבילה הכוללת דיג׳יי, מגנטים ללא הגבלה, וידאו ותאורה"
-  }
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap" rel="stylesheet">
+<title>DJ רונן מיקס – די ג'יי לאירועים</title>
+<meta name="description" content="די ג׳יי רונן מיקס לאירועים, חתונות, בר מצווה, בת מצווה ואירועים פרטיים. 25 שנות ניסיון בתחום עם ציוד מתקדם ומוזיקה שתרים את הרחבה.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 <style>
-/* ===== RESET & BASE ===== */
-*, *::before, *::after { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  font-family: "Heebo", "Segoe UI", Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  direction: rtl;
-  background: #f6f6f6;
-  color: #222;
-  overflow-x: hidden;
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:"Segoe UI",Arial,sans-serif;
+  line-height:1.6;
+  letter-spacing:0.2px;
+  direction:rtl;
+  background:#f6f6f6;
+  font-weight:bold;
 }
 
-img { max-width: 100%; display: block; }
-a { text-decoration: none; }
-
-h1, h2, h3 { margin: 0 0 16px; font-weight: 900; }
-
-section { padding: 60px 20px; text-align: center; }
-
-/* ===== STICKY HEADER ===== */
-.sticky-header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1000;
-  background: rgba(0,0,0,0.92);
-  backdrop-filter: blur(8px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 20px;
-  border-bottom: 2px solid #d62770;
+section{
+  padding:60px 20px;
+  text-align:center;
 }
 
-.sticky-header .logo {
-  color: #ffd400;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 1.2;
+h1,h2,h3{margin:0 0 20px;}
+
+/* ===== HERO TOP ===== */
+.hero-top{
+  background:linear-gradient(135deg,#0d0d0d 0%,#1a0008 50%,#0d0d0d 100%);
+  padding:60px 20px 40px;
+  text-align:center;
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+.hero-top::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(ellipse at center, rgba(255,47,135,0.15) 0%, transparent 70%);
+}
+.hero-top-content{position:relative;z-index:1;}
+.hero-top h1{
+  font-size:32px;
+  color:#ffd400;
+  margin-bottom:10px;
+  text-shadow:0 2px 10px rgba(255,212,0,0.4);
+  line-height:1.4;
+}
+.hero-top .sub{
+  font-size:17px;
+  color:#ff9cc8;
+  max-width:650px;
+  margin:0 auto 25px;
+  line-height:1.7;
+}
+.hero-top .cta-wrap{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.btn-call{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:#ffd400;
+  color:#000;
+  padding:14px 32px;
+  border-radius:40px;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:bold;
+}
+.btn-wa{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:#25d366;
+  color:white;
+  padding:14px 28px;
+  border-radius:40px;
+  text-decoration:none;
+  font-size:17px;
+  font-weight:bold;
 }
 
-.sticky-header .logo span {
-  display: block;
-  color: #d62770;
-  font-size: 12px;
-  font-weight: 400;
+/* ===== TAGLINE STRIP ===== */
+.tagline-strip{
+  background:#ff2f87;
+  color:white;
+  padding:14px 20px;
+  text-align:center;
+  font-size:16px;
 }
 
-.sticky-cta {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+/* ===== VIDEO SECTION ===== */
+.video-section{
+  background:#111;
+  padding:40px 20px;
+  text-align:center;
 }
-
-.sticky-cta a {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 9px 18px;
-  border-radius: 40px;
-  font-weight: 700;
-  font-size: 14px;
-  transition: transform 0.15s;
+.video-section h2{
+  color:#ffd400;
+  font-size:24px;
+  margin-bottom:20px;
 }
-
-.sticky-cta a:hover { transform: scale(1.04); }
-
-.btn-call {
-  background: #ffd400;
-  color: #000;
+.video-wrap{
+  max-width:720px;
+  margin:0 auto;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 40px rgba(255,47,135,0.4);
 }
-
-.btn-wa {
-  background: #25d366;
-  color: #fff;
-}
-
-/* ===== HERO ===== */
-.hero {
-  background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&w=1400&q=80") center/cover no-repeat;
-  padding: 160px 20px 100px;
-  color: #fff;
-  position: relative;
-  margin-top: 56px; /* offset sticky header */
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(160deg, rgba(0,0,0,0.75) 60%, rgba(214,39,112,0.4));
-}
-
-.hero-content {
-  position: relative;
-  max-width: 760px;
-  margin: auto;
-}
-
-.hero-badge {
-  display: inline-block;
-  background: #d62770;
-  color: #fff;
-  padding: 5px 22px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(214,39,112,0.5); }
-  50% { box-shadow: 0 0 0 10px rgba(214,39,112,0); }
-}
-
-.hero h1 {
-  font-size: clamp(32px, 6vw, 54px);
-  line-height: 1.15;
-  color: #ffd400;
-  margin-bottom: 12px;
-  text-shadow: 0 2px 16px rgba(0,0,0,0.5);
-}
-
-.hero h1 span { color: #fff; }
-
-.hero p {
-  font-size: 18px;
-  color: rgba(255,255,255,0.92);
-  max-width: 580px;
-  margin: 0 auto 28px;
-}
-
-.hero-cta {
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.hero-cta a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 16px 34px;
-  border-radius: 40px;
-  font-weight: 700;
-  font-size: 17px;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.hero-cta a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-}
-
-.cta-primary { background: #ffd400; color: #000; }
-.cta-wa      { background: #25d366; color: #fff; }
-
-.hero-stats {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-}
-
-.hero-stats .stat {
-  text-align: center;
-}
-
-.hero-stats .stat-num {
-  font-size: 36px;
-  font-weight: 900;
-  color: #ffd400;
-  line-height: 1;
-}
-
-.hero-stats .stat-label {
-  font-size: 13px;
-  color: rgba(255,255,255,0.75);
-  margin-top: 4px;
+.video-wrap video{
+  width:100%;
+  display:block;
+  border-radius:16px;
 }
 
 /* ===== PINK SECTION ===== */
-.pink {
-  background: linear-gradient(160deg, #ff2f87, #ff4fa1);
-  color: #fff;
+.pink{
+  background:linear-gradient(180deg,#ff2f87,#ff4fa1);
+  color:#000d99;
+  padding:50px 20px;
+}
+.pink h2{font-size:26px;}
+.pink p{
+  max-width:800px;
+  margin:auto;
+  font-size:18px;
+  line-height:1.8;
+  color:#1a006b;
 }
 
-.pink h2 { color: #fff; font-size: clamp(24px, 4vw, 36px); }
-
-.pink p {
-  max-width: 820px;
-  margin: 0 auto 24px;
-  font-size: 17px;
-  line-height: 1.8;
+/* ===== PRICE ===== */
+.price-section{background:#f6f6f6; padding:60px 20px;}
+.price-box{
+  background:white;
+  max-width:500px;
+  margin:auto;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
-
-.pink-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 14px;
-  max-width: 760px;
-  margin: 20px auto 0;
+.badge{
+  display:inline-block;
+  background:#ff2f87;
+  color:white;
+  padding:4px 25px;
+  border-radius:999px;
+  font-weight:bold;
+  font-size:15px;
+  margin-bottom:10px;
 }
-
-.pink-icon-item {
-  background: rgba(255,255,255,0.18);
-  border: 1px solid rgba(255,255,255,0.35);
-  border-radius: 12px;
-  padding: 10px 18px;
-  font-size: 14px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: #fff;
-}
-
-/* ===== PRICE SECTION ===== */
-.price-section { background: #fff; }
-
-.price-section h2 { color: #d62770; font-size: clamp(22px, 4vw, 34px); }
-
-.price-box {
-  background: #fff;
-  max-width: 520px;
-  margin: 0 auto;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 12px 48px rgba(214,39,112,0.18), 0 2px 8px rgba(0,0,0,0.06);
-  border: 2px solid #ff2f87;
-  position: relative;
-  overflow: hidden;
-}
-
-.price-box::before {
-  content: "";
-  position: absolute;
-  top: 0; right: 0; left: 0;
-  height: 5px;
-  background: linear-gradient(90deg, #ff2f87, #ffd400, #ff2f87);
-}
-
-.badge {
-  display: inline-block;
-  background: #d62770;
-  color: #fff;
-  padding: 6px 28px;
-  border-radius: 999px;
-  font-weight: 700;
-  font-size: 15px;
-  margin-bottom: 16px;
-}
-
-.price-label {
-  color: #555;
-  font-size: 16px;
-  margin-bottom: 4px;
-}
-
-.price-amount {
-  font-size: 72px;
-  font-weight: 900;
-  color: #d62770;
-  line-height: 1;
-  margin-bottom: 4px;
-}
-
-.price-currency {
-  font-size: 32px;
-  color: #000;
-  vertical-align: super;
-}
-
-.price-includes {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 28px;
-  text-align: right;
-  display: inline-block;
-}
-
-.price-includes li {
-  padding: 7px 0;
-  font-size: 15px;
-  border-bottom: 1px solid #f0f0f0;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
-
-.price-includes li:last-child { border-bottom: none; }
-
-.price-includes li i { color: #d62770; width: 18px; }
-
-.price-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #d62770;
-  color: #fff;
-  padding: 16px 36px;
-  border-radius: 40px;
-  font-weight: 700;
-  font-size: 17px;
-  width: 100%;
-  justify-content: center;
-  transition: background 0.15s, transform 0.15s;
-}
-
-.price-cta:hover {
-  background: #b81e5a;
-  transform: translateY(-2px);
-}
-
-.urgency-note {
-  margin-top: 14px;
-  font-size: 13px;
-  color: #888;
+.limited-spots{
+  color:#000;
+  font-size:15px;
+  margin-top:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
 }
 
 /* ===== GALLERY ===== */
-.gallery-section { background: #f6f6f6; }
-.gallery-section h2 { color: #d62770; }
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  max-width: 1000px;
-  margin: auto;
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+  max-width:1000px;
+  margin:auto;
+}
+.gallery img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:12px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.magnet-gallery img{
+  width:100%;
+  height:200px;
+  object-fit:contain;
+  object-position:center;
+  background:#f6f6f6;
+  border-radius:12px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.gallery img:hover{transform:scale(1.05);}
+.hidden-gallery{
+  display:none;
+  grid-column:1/-1;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+}
+.more-btn{
+  display:inline-block;
+  margin-top:25px;
+  background:#d62770;
+  color:white;
+  padding:14px 30px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+}
+.close-gallery{
+  display:none;
+  margin-top:15px;
+  background:black;
+  color:white;
+  padding:12px 26px;
+  border-radius:40px;
+  cursor:pointer;
 }
 
-.gallery img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: transform 0.25s, box-shadow 0.25s;
+/* ===== MODAL ===== */
+#imageModal{
+  display:none;
+  position:fixed;
+  z-index:9999;
+  left:0;top:0;
+  width:100%;height:100%;
+  background:rgba(0,0,0,0.9);
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 }
-
-.gallery img:hover {
-  transform: scale(1.04);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+#imageModal img{
+  max-width:90%;
+  max-height:85%;
+  border-radius:12px;
 }
-
-.magnet-gallery img {
-  object-fit: contain;
-  object-position: center;
-  background: #f0f0f0;
-}
-
-.hidden-gallery {
-  display: none;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-
-.more-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 24px;
-  background: #d62770;
-  color: #fff;
-  padding: 13px 30px;
-  border-radius: 40px;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background 0.15s;
-  border: none;
-}
-
-.more-btn:hover { background: #b81e5a; }
-
-.close-gallery {
-  display: none;
-  margin-top: 14px;
-  background: #222;
-  color: #fff;
-  padding: 11px 26px;
-  border-radius: 40px;
-  cursor: pointer;
-  font-size: 14px;
-  border: none;
-}
-
-/* ===== LIGHTBOX ===== */
-#imageModal {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  inset: 0;
-  background: rgba(0,0,0,0.92);
-  justify-content: center;
-  align-items: center;
-}
-
-#imageModal img {
-  max-width: 90%;
-  max-height: 88vh;
-  border-radius: 12px;
-  object-fit: contain;
-}
-
-.close-modal {
-  position: absolute;
-  top: 24px;
-  right: 28px;
-  font-size: 42px;
-  color: #fff;
-  cursor: pointer;
-  line-height: 1;
-  background: none;
-  border: none;
+.close-modal{
+  position:absolute;
+  top:30px;right:30px;
+  font-size:40px;
+  color:white;
+  cursor:pointer;
 }
 
 /* ===== REVIEWS ===== */
-.reviews-section { background: #fff; }
-.reviews-section h2 { color: #d62770; }
-
-.reviews-grid {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  max-width: 900px;
-  margin: auto;
+.reviews-gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+  max-width:1000px;
+  margin:0 auto;
 }
-
-.reviews-grid img {
-  height: 180px;
-  width: auto;
-  border-radius: 12px;
-  cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+.reviews-gallery img{
+  height:350px;
+  width:auto;
+  max-width:280px;
+  object-fit:contain;
+  background:white;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.12);
+  cursor:pointer;
+  transition:0.3s;
 }
-
-.reviews-grid img:hover { transform: scale(1.04); }
+.reviews-gallery img:hover{transform:scale(1.03);}
 
 /* ===== DARK FEATURES ===== */
-.dark {
-  background: #111;
-  color: #fff;
+.dark{
+  background:#0d0d0d;
+  color:white;
+  padding:60px 20px;
+}
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:30px;
+  max-width:900px;
+  margin:auto;
+}
+.feature i{
+  font-size:40px;
+  color:#ff2f87;
+  margin-bottom:10px;
 }
 
-.dark h2 { color: #ffd400; font-size: clamp(22px, 4vw, 32px); }
-
-.features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 28px;
-  max-width: 860px;
-  margin: 0 auto 0;
+/* ===== BOTTOM HERO ===== */
+.hero-bottom{
+  background:url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819") center/cover;
+  padding:100px 20px;
+  color:white;
+  position:relative;
+  text-align:center;
 }
-
-.feature {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 14px;
-  padding: 30px 20px;
-  transition: background 0.2s;
+.hero-bottom:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.65);
 }
-
-.feature:hover { background: rgba(255,47,135,0.12); }
-
-.feature i {
-  font-size: 38px;
-  color: #ff2f87;
-  margin-bottom: 12px;
-  display: block;
+.hero-bottom-content{position:relative;}
+.hero-bottom h1{
+  font-size:34px;
+  color:#ffd400;
+  margin-bottom:8px;
 }
-
-.feature h3 { color: #fff; font-size: 16px; margin: 0; }
-
-.feature p { color: rgba(255,255,255,0.6); font-size: 13px; margin: 6px 0 0; }
-
-/* ===== FINAL CTA HERO ===== */
-.cta-hero {
-  background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&w=1400&q=80") center/cover no-repeat;
-  padding: 100px 20px;
-  position: relative;
-  text-align: center;
+.hero-bottom h3{
+  color:#ff69b4;
+  margin-bottom:25px;
 }
-
-.cta-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.65);
+.btn-bottom{
+  display:inline-block;
+  background:#ffd400;
+  color:black;
+  padding:15px 40px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:18px;
 }
-
-.cta-hero-content { position: relative; }
-
-.cta-hero h2 {
-  font-size: clamp(26px, 5vw, 44px);
-  color: #ffd400;
-  margin-bottom: 8px;
+.social-row{
+  margin-top:18px;
+  display:flex;
+  gap:10px;
+  justify-content:center;
 }
-
-.cta-hero h3 {
-  color: #d62770;
-  margin-bottom: 28px;
-  font-size: 18px;
-  font-weight: 700;
+.social-row a{
+  width:48px;height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+  color:white;
+  font-size:20px;
+  text-decoration:none;
 }
-
-.cta-social {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.cta-social a {
-  width: 46px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 20px;
-  transition: transform 0.15s;
-}
-
-.cta-social a:hover { transform: scale(1.1); }
 
 /* ===== FLOATING BUTTONS ===== */
-.float {
-  position: fixed;
-  bottom: 20px;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  z-index: 999;
-  cursor: pointer;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
-  transition: transform 0.15s;
+.float{
+  position:fixed;
+  bottom:20px;
+  width:55px;height:55px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  z-index:999;
+  cursor:pointer;
+  text-decoration:none;
+  line-height:1;
+  box-shadow:0 4px 15px rgba(0,0,0,0.3);
 }
-
-.float:hover { transform: scale(1.1); }
-
-.whatsapp { background: #25d366; right: 20px; color: #fff; }
-.phone    { background: #ffd400; right: 88px; color: #000; }
+.whatsapp{background:#25d366;right:20px;color:white;}
+.phone{background:#ffd400;right:85px;color:black;}
 
 /* ===== MOBILE ===== */
-@media (max-width: 700px) {
-  .sticky-header .logo span { display: none; }
-  .sticky-cta a span { display: none; }
-  .sticky-cta a { padding: 9px 14px; }
-
-  .gallery,
-  .hidden-gallery { grid-template-columns: repeat(2, 1fr); }
-
-  .hero { padding: 120px 20px 70px; }
-
-  .price-box { padding: 28px 20px; }
-  .price-amount { font-size: 56px; }
-
-  .hero-stats { gap: 24px; }
-  .hero-stats .stat-num { font-size: 28px; }
-
-  .reviews-grid img { height: 140px; }
+@media(max-width:700px){
+  .gallery{grid-template-columns:repeat(2,1fr);}
+  .hidden-gallery{grid-template-columns:repeat(2,1fr);}
+  .hero-top h1{font-size:24px;}
+  .reviews-gallery img{height:260px;max-width:calc(50% - 8px);}
+}
+@media(max-width:480px){
+  .reviews-gallery img{height:220px;max-width:100%;}
 }
 
-@media (max-width: 400px) {
-  .hero-cta { flex-direction: column; align-items: center; }
-  .hero-cta a { width: 100%; justify-content: center; }
-}
 </style>
 </head>
 <body>
 
-<!-- ===== STICKY HEADER ===== -->
-<header class="sticky-header">
-  <div class="logo">
-    רונן מיקס ומגנטים
-    <span>בת מצווה | ברית | יום הולדת</span>
-  </div>
-  <div class="sticky-cta">
-    <a href="https://wa.me/972522508595" class="btn-wa">
-      <i class="fa-brands fa-whatsapp"></i>
-      <span>וואטסאפ</span>
-    </a>
-    <a href="tel:0522508595" class="btn-call">
-      <i class="fa-solid fa-phone"></i>
-      <span>התקשרו</span>
-    </a>
-  </div>
-</header>
-
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <div class="hero-content">
-    <div class="hero-badge">✨ 25 שנות ניסיון באירועים</div>
-    <h1>דיג׳יי רונן מיקס<br><span>ומגנטים</span></h1>
-    <p>מסיבות בת מצווה | ברית | ימי הולדת | אירועים פרטיים<br>הכל כלול בחבילה אחת ב-1600 ש״ח בלבד</p>
-    <div class="hero-cta">
-      <a href="tel:0522508595" class="cta-primary">
-        <i class="fa-solid fa-phone"></i> התקשרו עכשיו
-      </a>
-      <a href="https://wa.me/972522508595" class="cta-wa">
-        <i class="fa-brands fa-whatsapp"></i> שלחו וואטסאפ
-      </a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">25+</div>
-        <div class="stat-label">שנות ניסיון</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">1600</div>
-        <div class="stat-label">₪ הכל כלול</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">∞</div>
-        <div class="stat-label">מגנטים ללא הגבלה</div>
-      </div>
+<!-- ===== TOP HERO – "WOW" FACTOR ===== -->
+<div class="hero-top">
+  <div class="hero-top-content">
+    <h1>🔥🎧 דיג׳יי ומגנטים לאירועים<br>רחבה מלאה מהשיר הראשון ועד הסוף!</h1>
+    <p class="sub">
+      אירוע יש פעם בחיים – אל תיקח סיכון על דיג׳יי שלא יודע להרים קהל.<br>
+      אצל רונן מיקס הרחבה תמיד מלאה, המוזיקה מותאמת לקהל, והאווירה בלתי נשכחת.
+    </p>
+    <div class="cta-wrap">
+      <a href="tel:0522508595" class="btn-call"><i class="fa-solid fa-phone"></i> התקשר עכשיו</a>
+      <a href="https://wa.me/972522508595" class="btn-wa"><i class="fa-brands fa-whatsapp"></i> שלח וואטסאפ</a>
     </div>
   </div>
-</section>
+</div>
 
-<!-- ===== PINK – ABOUT ===== -->
+<!-- ===== TAGLINE STRIP ===== -->
+<div class="tagline-strip">
+  מסיבות &nbsp;|&nbsp; בת מצווה &nbsp;|&nbsp; ימי הולדת &nbsp;|&nbsp; בריתות &nbsp;|&nbsp; אירועים פרטיים
+</div>
+
+<!-- ===== VIDEO – ראשון לפני תמונות ===== -->
+<div class="video-section">
+  <h2>🎬 תראו מה קורה אצלנו באירועים</h2>
+  <div class="video-wrap">
+    <video controls playsinline poster="">
+      <source src="videos/event_mix.mp4" type="video/mp4">
+      הדפדפן שלך אינו תומך בוידאו.
+    </video>
+  </div>
+</div>
+
+<!-- ===== PINK – תיאור שירותים ===== -->
 <section class="pink">
-  <h2>הגעתם לדיג׳יי רונן מיקס ומגנטים</h2>
+  <h2>דיג׳יי רונן מיקס ומגנטים</h2>
   <p>
-    די ג׳יי רונן מיקס בעל 25 שנות ניסיון שהפעיל במגוון אירועים.
+    דיג׳יי רונן מיקס בעל 25 שנות ניסיון שהפעיל במגוון אירועים.
     יקפיץ לכם את האירוע עם כל מה שאתם צריכים:
     מוזיקה עכשווית עם כל הלהיטים,
     הפעלה בריקודים ומשחקי חברה,
@@ -688,141 +415,133 @@ section { padding: 60px 20px; text-align: center; }
     צילום וידאו לאורך כל האירוע
     וגם צילום מגנטים ללא הגבלה.
   </p>
-  <div class="pink-icons">
-    <div class="pink-icon-item"><i class="fa-solid fa-music"></i> מוזיקה עכשווית</div>
-    <div class="pink-icon-item"><i class="fa-solid fa-camera"></i> מגנטים ללא הגבלה</div>
-    <div class="pink-icon-item"><i class="fa-solid fa-video"></i> צילום וידאו</div>
-    <div class="pink-icon-item"><i class="fa-solid fa-star"></i> שטיח אדום</div>
-    <div class="pink-icon-item"><i class="fa-solid fa-display"></i> מסך ענק + ג׳אסט דאנס</div>
-    <div class="pink-icon-item"><i class="fa-solid fa-lightbulb"></i> תאורה מהממת</div>
-  </div>
 </section>
 
-<!-- ===== PRICE ===== -->
+<!-- ===== מחיר ===== -->
 <section class="price-section">
-  <h2>הכי משתלם היום!</h2>
-  <p style="max-width:680px;margin:0 auto 28px;color:#555;font-size:16px;">
-    דיג׳יי + מגנטים ללא הגבלה + וידאו + תאורה + שטיח אדום + מסך ענק – הכל בחבילה אחת.
+  <h2 style="color:#d62770;">הכי משתלם היום!!</h2>
+  <p>
+    דיג׳יי רונן מיקס וגם מגנטים ללא הגבלה עם וידאו בחבילה אחת
+    <strong style="background-color:#ffd400;">רק 1600 ש״ח</strong>
+    עם תאורה מהממת, מוזיקה לריקודים עם כל הלהיטים, כניסה עם שטיח אדום,
+    מסך ענק עם טיקטוק וג׳אסט דאנס, הפעלה בריקודים ומשחקי חברה למסיבות בת מצווה, ימי הולדת וכל אירוע.
   </p>
   <div class="price-box">
     <div class="badge">הכל כלול!</div>
-    <p class="price-label">מחיר מיוחד לחבילה המלאה</p>
-    <div class="price-amount"><span class="price-currency">₪</span>1600</div>
-    <ul class="price-includes">
-      <li><i class="fa-solid fa-check"></i> דיג׳יי מקצועי + ציוד שמע</li>
-      <li><i class="fa-solid fa-check"></i> מגנטים ללא הגבלה</li>
-      <li><i class="fa-solid fa-check"></i> צילום וידאו לאורך האירוע</li>
-      <li><i class="fa-solid fa-check"></i> תאורה מהממת</li>
-      <li><i class="fa-solid fa-check"></i> כניסה על שטיח אדום</li>
-      <li><i class="fa-solid fa-check"></i> מסך ענק עם טיקטוק + ג׳אסט דאנס</li>
-      <li><i class="fa-solid fa-check"></i> הפעלה בריקודים ומשחקי חברה</li>
-    </ul>
-    <a href="tel:0522508595" class="price-cta">
-      <i class="fa-solid fa-phone"></i> הזמינו עכשיו – 052-250-8595
+    <p style="color:#484848;margin-bottom:0.5px;">הכל כלול רק ב-</p>
+    <p style="color:#d62770;font-size:35px;margin-top:0;">
+      <strong style="color:black;font-size:50px;">1600</strong> ₪
+    </p>
+    <a href="tel:0522508595" style="display:inline-block;background:#ff2f87;color:white;padding:14px 35px;border-radius:40px;text-decoration:none;font-size:17px;margin-top:10px;">
+      📞 הזמינו עכשיו – 052-250-8595
     </a>
-    <p class="urgency-note">📅 מקומות מוגבלים – פנו אלינו לפני שיתפוס</p>
+    <p class="limited-spots">📅 מקומות מוגבלים – פנו אלינו לפני שיתפס</p>
   </div>
 </section>
 
-<!-- ===== GALLERY – EVENTS ===== -->
-<section class="gallery-section">
+<!-- ===== גלריה אירועים – תמונת רונן ראשונה ===== -->
+<section style="background:white;">
   <h2>תמונות מאירועים</h2>
   <div class="gallery">
-    <img src="תמונןת.jpg/2f9dbfc0-9af8-4685-b3c3-0573d9aaba4b.JPG" alt="אירוע בת מצווה – דיג׳יי רונן מיקס" onclick="openImage(this)">
-    <img src="תמונןת.jpg/4045ee07-b8e9-4fb1-8b33-347f0839a1e3.JPG" alt="מסיבת יום הולדת – דיג׳יי רונן" onclick="openImage(this)">
-    <img src="תמונןת.jpg/691478f6-20fb-4b7c-b1ad-ed58f52d6cc8.JPG" alt="רחבת ריקודים – אירוע" onclick="openImage(this)">
-    <img src="תמונןת.jpg/a59c6141-1dd1-4c92-9cbd-fa7381d59ad0.JPG" alt="DJ ציוד ותאורה באירוע" onclick="openImage(this)">
+
+    <!-- תמונת רונן ב-DJ ראשונה -->
+    <img src="תמונות.jpg/WhatsApp_Image_2026-04-08_at_17_12_20.jpeg" onclick="openImage(this)" alt="רונן מיקס DJ">
+    <img src="תמונות.jpg/2f9dbfc0-9af8-4685-b3c3-0573d9aaba4b.JPG" onclick="openImage(this)" alt="">
+    <img src="תמונות.jpg/4045ee07-b8e9-4fb1-8b33-347f0839a1e3.JPG" onclick="openImage(this)" alt="">
+    <img src="תמונות.jpg/691478f6-20fb-4b7c-b1ad-ed58f52d6cc8.JPG" onclick="openImage(this)" alt="">
+
     <div class="hidden-gallery" id="morePhotos">
-      <img src="תמונןת.jpg/b8461958-7e0c-4f4b-927e-3f23ba93fe18.JPG" alt="אירוע ברית מילה – דיג׳יי רונן" onclick="openImage(this)">
-      <img src="תמונןת.jpg/c1fc4009-9414-4908-b5fb-5321a362f1ad.JPG" alt="הפעלה ריקודים" onclick="openImage(this)">
-      <img src="תמונןת.jpg/d0932f56-81b2-4591-b9fc-00d69db1a8e2.JPG" alt="אירוע חגיגי – DJ מיקס" onclick="openImage(this)">
+      <img src="תמונות.jpg/a59c6141-1dd1-4c92-9cbd-fa7381d59ad0.JPG" onclick="openImage(this)" alt="">
+      <img src="תמונות.jpg/b8461958-7e0c-4f4b-927e-3f23ba93fe18.JPG" onclick="openImage(this)" alt="">
+      <img src="תמונות.jpg/c1fc4009-9414-4908-b5fb-5321a362f1ad.JPG" onclick="openImage(this)" alt="">
+      <img src="תמונות.jpg/d0932f56-81b2-4591-b9fc-00d69db1a8e2.JPG" onclick="openImage(this)" alt="">
     </div>
   </div>
+
   <br>
-  <button class="more-btn" id="openBtn" onclick="showPhotos()">
-    <i class="fa-solid fa-images"></i> ראו את כל התמונות
-  </button>
-  <button class="close-gallery" id="closeBtn" onclick="hidePhotos()">סגור תמונות</button>
+  <a class="more-btn" id="openBtn" onclick="showPhotos()">ראה את כל התמונות</a>
+  <br>
+  <a class="close-gallery" id="closeBtn" onclick="hidePhotos()">סגור תמונות</a>
 </section>
 
-<!-- ===== GALLERY – MAGNETS ===== -->
-<section style="background:#fff;">
-  <h2 style="color:#d62770;">מגנטים מרחבת הריקודים</h2>
+<!-- ===== וידאו שני – אחרי תמונות ===== -->
+<div class="video-section">
+  <h2>🎥 עוד מהאירועים שלנו</h2>
+  <div class="video-wrap">
+    <video controls playsinline>
+      <source src="videos/event_mix.mp4" type="video/mp4">
+      הדפדפן שלך אינו תומך בוידאו.
+    </video>
+  </div>
+</div>
+
+<!-- ===== מגנטים ===== -->
+<section style="background:#f6f6f6;">
+  <h2>מגנטים מרחבת הריקודים</h2>
   <div class="gallery magnet-gallery">
-    <img src="תמונןת.jpg/05c88d65-b362-4bdb-a331-0613542d9375.JPG" alt="מגנט מרחבת הריקודים" onclick="openImage(this)">
-    <img src="תמונןת.jpg/12e486e5-b802-4e5e-860c-5dfb5fb3e866.JPG" alt="מגנט אירוע" onclick="openImage(this)">
-    <img src="תמונןת.jpg/201b1eaa-259c-43b0-bcec-981f8a34e2ab.JPG" alt="מגנט זכרון מהאירוע" onclick="openImage(this)">
-    <img src="תמונןת.jpg/3d1b16c0-fb59-4a55-99ad-c47a9aea6f51.JPG" alt="מגנט ריקודים" onclick="openImage(this)">
+    <img src="תמונות.jpg/05c88d65-b362-4bdb-a331-0613542d9375.JPG" alt="" onclick="openImage(this)">
+    <img src="תמונות.jpg/12e486e5-b802-4e5e-860c-5dfb5fb3e866.JPG" alt="" onclick="openImage(this)">
+    <img src="תמונות.jpg/201b1eaa-259c-43b0-bcec-981f8a34e2ab.JPG" alt="" onclick="openImage(this)">
+    <img src="תמונות.jpg/3d1b16c0-fb59-4a55-99ad-c47a9aea6f51.JPG" alt="" onclick="openImage(this)">
+
     <div class="hidden-gallery" id="morePhotos2">
-      <img src="תמונןת.jpg/4cd76351-b8bf-4f07-928e-c534bc3bec1a.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/519f109e-1b31-4568-9921-50f4c6fe6bce.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/69921864-cb60-4a10-8dba-65c9a5542ca1.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/6c62a372-fc32-47d8-a6a6-13a155304270.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/7f5470d1-13d1-4723-946e-3c20398365f4.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/919e195d-9019-4161-b258-55c2855e5e49.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/9f555f5c-a33e-4e99-b1de-3ca79abd29df.JPG" alt="מגנט" onclick="openImage(this)">
-      <img src="תמונןת.jpg/a1484c17-dffa-48aa-9e4b-d1297f979bdb.JPG" alt="מגנט" onclick="openImage(this)">
+      <img src="תמונות.jpg/4cd76351-b8bf-4f07-928e-c534bc3bec1a.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/519f109e-1b31-4568-9921-50f4c6fe6bce.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/69921864-cb60-4a10-8dba-65c9a5542ca1.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/6c62a372-fc32-47d8-a6a6-13a155304270.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/7f5470d1-13d1-4723-946e-3c20398365f4.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/919e195d-9019-4161-b258-55c2855e5e49.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/9f555f5c-a33e-4e99-b1de-3ca79abd29df.JPG" alt="" onclick="openImage(this)">
+      <img src="תמונות.jpg/a1484c17-dffa-48aa-9e4b-d1297f979bdb.JPG" alt="" onclick="openImage(this)">
     </div>
   </div>
   <br>
-  <button class="more-btn" id="openBtn2" onclick="showPhotos2()">
-    <i class="fa-solid fa-images"></i> ראו את כל המגנטים
-  </button>
-  <button class="close-gallery" id="closeBtn2" onclick="hidePhotos2()">סגור תמונות</button>
+  <a class="more-btn" id="openBtn2" onclick="showPhotos2()">ראה את כל התמונות</a>
+  <br>
+  <a class="close-gallery" id="closeBtn2" onclick="hidePhotos2()">סגור תמונות</a>
 </section>
 
-<!-- ===== REVIEWS ===== -->
-<section class="reviews-section">
-  <h2>המלצות מלקוחות מרוצים</h2>
-  <div class="reviews-grid">
-    <img onclick="openImage(this)" src="תמונןת.jpg/ba154a6c-d01d-4d0a-8ceb-4d83f55308ec.JPG" alt="המלצה על דיג׳יי רונן מיקס">
-    <img onclick="openImage(this)" src="תמונןת.jpg/b83ea6f1-db30-4930-9a01-42a3131bffbc.JPG" alt="המלצה על דיג׳יי רונן מיקס">
-    <img onclick="openImage(this)" src="תמונןת.jpg/b5e65398-8da9-48b6-ba15-19e582d36975.JPG" alt="המלצה על דיג׳יי רונן מיקס">
-    <img onclick="openImage(this)" src="תמונןת.jpg/9719fafa-a8a7-4034-8d29-c5305e34c6fe.JPG" alt="המלצה על דיג׳יי רונן מיקס">
+<!-- ===== המלצות מלקוחות – מוגדלות ===== -->
+<section style="background:white;">
+  <h2>המלצות מלקוחות</h2>
+  <div class="reviews-gallery">
+    <img onclick="openImage(this)" src="תמונות.jpg/ba154a6c-d01d-4d0a-8ceb-4d83f55308ec.JPG" alt="המלצה">
+    <img onclick="openImage(this)" src="תמונות.jpg/b83ea6f1-db30-4930-9a01-42a3131bffbc.JPG" alt="המלצה">
+    <img onclick="openImage(this)" src="תמונות.jpg/b5e65398-8da9-48b6-ba15-19e582d36975.JPG" alt="המלצה">
+    <img onclick="openImage(this)" src="תמונות.jpg/9719fafa-a8a7-4034-8d29-c5305e34c6fe.JPG" alt="המלצה">
   </div>
 </section>
 
-<!-- ===== DARK FEATURES ===== -->
+<!-- ===== למה לבחור רונן MIX ===== -->
 <section class="dark">
   <h2>למה לבחור רונן MIX לאירוע שלכם?</h2>
   <div class="features">
     <div class="feature">
       <i class="fa-solid fa-headphones"></i>
-      <h3>מקצועיות מלאה</h3>
-      <p>ציוד מתקדם ואיכות שמע מעולה</p>
+      <h3>מקצועיות</h3>
     </div>
     <div class="feature">
       <i class="fa-solid fa-thumbs-up"></i>
       <h3>25 שנות ניסיון</h3>
-      <p>מאות אירועים מוצלחים מאחורינו</p>
     </div>
     <div class="feature">
       <i class="fa-solid fa-heart"></i>
       <h3>יחס אישי וחם</h3>
-      <p>מותאם לכם ולאירוע שלכם</p>
     </div>
     <div class="feature">
       <i class="fa-solid fa-coins"></i>
       <h3>מחיר משתלם</h3>
-      <p>הכל כלול בחבילה אחת ב-1600 ₪</p>
     </div>
   </div>
 </section>
 
-<!-- ===== FINAL CTA HERO ===== -->
-<section class="cta-hero">
-  <div class="cta-hero-content">
-    <h2>דיג׳יי רונן מיקס ומגנטים</h2>
-    <h3>מסיבות | בת מצווה | ברית | ימי הולדת | אירועים</h3>
-    <div class="hero-cta">
-      <a href="tel:0522508595" class="cta-primary">
-        <i class="fa-solid fa-phone"></i> 052-250-8595
-      </a>
-      <a href="https://wa.me/972522508595" class="cta-wa">
-        <i class="fa-brands fa-whatsapp"></i> שלחו וואטסאפ
-      </a>
-    </div>
-    <div class="cta-social">
+<!-- ===== BOTTOM CTA HERO ===== -->
+<div class="hero-bottom">
+  <div class="hero-bottom-content">
+    <h1>דיג׳יי רונן מיקס ומגנטים</h1>
+    <h3>מסיבות | בת מצווה | ימי הולדת | אירועים</h3>
+    <a class="btn-bottom" href="tel:0522508595">📞 052-250-8595</a>
+    <div class="social-row">
       <a href="https://wa.me/972522508595" style="background:#25d366;">
         <i class="fa-brands fa-whatsapp"></i>
       </a>
@@ -831,53 +550,50 @@ section { padding: 60px 20px; text-align: center; }
       </a>
     </div>
   </div>
-</section>
-
-<!-- ===== LIGHTBOX ===== -->
-<div id="imageModal" onclick="closeImage()">
-  <button class="close-modal" onclick="closeImage()">×</button>
-  <img id="modalImg" alt="תמונה מוגדלת" onclick="event.stopPropagation()">
 </div>
 
-<!-- ===== FLOATING BUTTONS ===== -->
-<a href="https://wa.me/972522508595" class="float whatsapp" aria-label="שלחו וואטסאפ">
+<!-- ===== modal ===== -->
+<div id="imageModal">
+  <span class="close-modal" onclick="closeImage()">×</span>
+  <img id="modalImg">
+</div>
+
+<!-- ===== כפתורים צפים ===== -->
+<a href="https://wa.me/9720522508595" class="float whatsapp">
   <i class="fa-brands fa-whatsapp"></i>
 </a>
-<a href="tel:0522508595" class="float phone" aria-label="התקשרו">
+<a href="tel:0522508595" class="float phone">
   <i class="fa-solid fa-phone"></i>
 </a>
 
 <script>
-function showPhotos() {
-  document.getElementById("morePhotos").style.display = "grid";
-  document.getElementById("openBtn").style.display = "none";
-  document.getElementById("closeBtn").style.display = "inline-block";
+function showPhotos(){
+  document.getElementById("morePhotos").style.display="grid";
+  document.getElementById("openBtn").style.display="none";
+  document.getElementById("closeBtn").style.display="inline-block";
 }
-function hidePhotos() {
-  document.getElementById("morePhotos").style.display = "none";
-  document.getElementById("openBtn").style.display = "inline-flex";
-  document.getElementById("closeBtn").style.display = "none";
+function hidePhotos(){
+  document.getElementById("morePhotos").style.display="none";
+  document.getElementById("openBtn").style.display="inline-block";
+  document.getElementById("closeBtn").style.display="none";
 }
-function showPhotos2() {
-  document.getElementById("morePhotos2").style.display = "grid";
-  document.getElementById("openBtn2").style.display = "none";
-  document.getElementById("closeBtn2").style.display = "inline-block";
+function openImage(img){
+  document.getElementById("imageModal").style.display="flex";
+  document.getElementById("modalImg").src=img.src;
 }
-function hidePhotos2() {
-  document.getElementById("morePhotos2").style.display = "none";
-  document.getElementById("openBtn2").style.display = "inline-flex";
-  document.getElementById("closeBtn2").style.display = "none";
+function closeImage(){
+  document.getElementById("imageModal").style.display="none";
 }
-function openImage(img) {
-  document.getElementById("imageModal").style.display = "flex";
-  document.getElementById("modalImg").src = img.src;
-  document.body.style.overflow = "hidden";
+function showPhotos2(){
+  document.getElementById("morePhotos2").style.display="grid";
+  document.getElementById("openBtn2").style.display="none";
+  document.getElementById("closeBtn2").style.display="inline-block";
 }
-function closeImage() {
-  document.getElementById("imageModal").style.display = "none";
-  document.body.style.overflow = "";
+function hidePhotos2(){
+  document.getElementById("morePhotos2").style.display="none";
+  document.getElementById("openBtn2").style.display="inline-block";
+  document.getElementById("closeBtn2").style.display="none";
 }
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeImage(); });
 </script>
 
 </body>
